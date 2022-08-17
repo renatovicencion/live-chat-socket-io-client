@@ -8,7 +8,7 @@ const socket = io.connect("https://vercel.com/renatovicencion/live-chat-socket-i
 function App() {
 
   const [username, setUsername] = useState("");
-  const [room, setRoom] = useState("");
+  const [room, setRoom] = useState(""); 
   const [showChat, setShowChat] = useState(false);
 
   const handleOnChangeUsername = (e) => {
