@@ -3,7 +3,7 @@ import './App.css';
 import io from 'socket.io-client';
 import Chat from './components/Chat';
 
-const socket = io.connect("https://vercel.com/renatovicencion/live-chat-socket-io-server");
+const socket = io.connect("https://live-chat-socket-io-server.vercel.app/");
 
 function App() {
 
